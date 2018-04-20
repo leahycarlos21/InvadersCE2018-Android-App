@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
      */
     private static final String ADDRESS = "192.168.43.46";
 public void disparoClick(View view){
-    System.out.println("---------------------");
     MyATaskCliente myATaskYW1 = new MyATaskCliente();
     onPause();
     myATaskYW1.execute("Disparo");
